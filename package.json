@@ -1,0 +1,18 @@
+{
+  "name": "actionmessage",
+  "version": "0.0.1",
+  "description": "The Javascript implementation of the Action Message protocol.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node unittest.js"
+  },
+  "repository": "",
+  "keywords": [
+    "actionmessage"
+  ],
+  "author": "Jeffrey Sun",
+  "license": "MIT"
+}
