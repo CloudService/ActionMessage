@@ -99,7 +99,7 @@ var actionMessage = function (){
 				return JSON.stringify(actionResult);
 			}
 			
-			var result = fn(data);
+			var result = fn.call(handlerObject, data);
 			
 			actionResult.status="success"; // The execution is successful when get here.
 			actionResult.result = result;
