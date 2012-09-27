@@ -1,13 +1,13 @@
 {
   "name": "actionmessage",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "The Javascript implementation of the Action Message protocol.",
   "main": "index.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "test": "node unittest.js"
+    "test": "node test/unittest.js"
   },
   "repository": "",
   "keywords": [
